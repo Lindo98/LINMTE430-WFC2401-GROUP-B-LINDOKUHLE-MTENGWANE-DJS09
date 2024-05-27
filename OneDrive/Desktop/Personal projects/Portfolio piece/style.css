@@ -32,7 +32,12 @@ html {
 
 body {
   color: var(--clr-light);
-  background-color: var(--clr-dark);
+  background: linear-gradient(
+    178.1deg,
+    rgb(60, 55, 106) 8.5%,
+    rgb(23, 20, 69) 82.4%
+  );
+  padding: 20px;
 }
 
 .header {
@@ -46,6 +51,7 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  background-color: none;
 }
 
 .logo {
@@ -104,11 +110,6 @@ body {
   width: 100%;
   justify-content: space-between;
   height: 100vh;
-  background: linear-gradient(
-    178.1deg,
-    rgb(60, 55, 106) 8.5%,
-    rgb(23, 20, 69) 82.4%
-  );
   display: flex;
   align-items: center;
   padding: 70px 10% 0;
@@ -118,12 +119,6 @@ img.profile {
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  background: radial-gradient(
-    993px at 0.5% 98.5%,
-    rgb(0, 239, 247) 0%,
-    rgb(0, 122, 147) 46.7%,
-    rgb(0, 29, 72) 100.2%
-  );
   border-radius: 50%;
   box-shadow: 2px 2px 15px cyan, 2px 2px 50px cyan, 2px 2px 50px cyan,
     2px 2px 50px cyan;
